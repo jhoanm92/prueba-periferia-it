@@ -212,11 +212,5 @@ DB_HOST=db
 DB_USER=user_red
 DB_PASSWORD=pass123456
 DB_NAME=db_red_social
-JWT_SECRET=tu_secreto_jwt
+JWT_SECRET=secret_jwt
 ```
-
----
-
-## 📄 Licencia
-
-MIT © 2025 — Tu Nombre
