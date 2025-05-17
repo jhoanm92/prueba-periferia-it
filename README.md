@@ -55,7 +55,3 @@ El proyecto está dividido en dos partes principales:
     ├── public/          # Archivos públicos
     └── ...
 ```
-
-## Licencia
-
-Este proyecto es privado y confidencial. 
