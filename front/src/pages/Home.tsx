@@ -136,7 +136,7 @@ export default function Home() {
               type="text"
               id="title"
               value={newPost.title}
-              onChange={e => setNewPost(prev => ({ ...prev, title: e.target.value.trim() }))}
+              onChange={e => setNewPost(prev => ({ ...prev, title: e.target.value }))}
               className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
               required
             />
@@ -148,7 +148,7 @@ export default function Home() {
             <textarea
               id="content"
               value={newPost.content}
-              onChange={e => setNewPost(prev => ({ ...prev, content: e.target.value.trim() }))}
+              onChange={e => setNewPost(prev => ({ ...prev, content: e.target.value }))}
               rows={4}
               className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
               required
